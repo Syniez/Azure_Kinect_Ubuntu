@@ -7,6 +7,7 @@ MS Azure Kinect transformation code for Ubuntu
 
 
 ## For Ubuntu
++ First, install k4a SDK with apt-get install
 + To use, compile with g++ and make object file.
   + g++ -o <file name> transformation.cpp -lk4a 'pkg-config --libs --cflags OpenCV` (OpenCV version < 4)
   + (In my case, i didn't do any steps before using kinect. So connect kinect to USB 3.0 port and use sudo when run file.)
