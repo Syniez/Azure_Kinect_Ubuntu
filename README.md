@@ -8,8 +8,8 @@ MS Azure Kinect transformation code for Ubuntu
 
 ## For Ubuntu
 + To use, compile with g++ and make object file.
-  + g++ -o test transformation.cpp -lk4a 'pkg-config --libs --cflags opencv` (opencv version < 4)
+  + g++ -o <file name> transformation.cpp -lk4a 'pkg-config --libs --cflags OpenCV` (OpenCV version < 4)
 
 
 ## For Windows
-+ Make solution file and add opencv & k4a header in project settings.
++ Make solution file and add OpenCV & k4a header in project settings.
