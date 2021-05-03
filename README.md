@@ -9,7 +9,7 @@ MS Azure Kinect transformation code for Ubuntu
 ## For Ubuntu
 + First, install k4a SDK with apt-get install
 + To use, compile with g++ and make object file. (below command)
-  + **_g++ -o <file name> transformation.cpp -lk4a 'pkg-config --libs --cflags OpenCV` (OpenCV version < 4)_**
+  + **g++ -o <file name> transformation.cpp -lk4a 'pkg-config --libs --cflags OpenCV` (OpenCV version < 4)**
   + (In my case, i didn't do any steps before using kinect. So connect kinect to USB 3.0 port and use sudo when run file.)
 
 
@@ -17,5 +17,5 @@ MS Azure Kinect transformation code for Ubuntu
 + Make solution file and add OpenCV & k4a header in project settings.
 
 ## * TODO
-+ Enhance fps in transformation_video code (actually now, not real-time)
++ Enhance fps in **transformation_video.cpp** code (actually now, not real-time)
 + Try body-tracking library? (extend in Unity)
