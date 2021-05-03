@@ -15,3 +15,7 @@ MS Azure Kinect transformation code for Ubuntu
 
 ## For Windows
 + Make solution file and add OpenCV & k4a header in project settings.
+
+## * TODO
++ Enhance fps in transformation_video code (actually now, not real-time)
++ Try body-tracking library? (extend in Unity)
