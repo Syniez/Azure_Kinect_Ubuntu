@@ -1,5 +1,5 @@
-# Azure_Kinect_Ubuntu
-MS Azure Kinect transformation code for Ubuntu
+# Azure_Kinect_Utils
+MS Azure Kinect transformation code for me
 
 1. transformation.cpp : apply transformation function in capture moment
 2. transformation_video.cpp : apply transformation function in continuous frames
